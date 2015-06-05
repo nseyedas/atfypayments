@@ -23,6 +23,14 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 #figaro gem for securely manage credentials
 gem 'figaro'
 
+
+#add active admin to generate an admin interface
+gem 'activeadmin' , github: 'gregbell/active_admin'
+
+#devise to support login for activeAdmin
+gem 'devise'
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
